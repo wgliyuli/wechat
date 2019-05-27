@@ -24,7 +24,7 @@ type TemplateMessage2 struct {
 
 type MiniProgram struct {
 	AppId    string `json:"appid"`    // 必选; 所需跳转到的小程序appid（该小程序appid必须与发模板消息的公众号是绑定关联关系）
-	PagePath string `json:"pagepath"` // 必选; 所需跳转到的小程序appid（该小程序appid必须与发模板消息的公众号是绑定关联关系）
+	PagePath string `json:"path"` // 必选; 所需跳转到的小程序appid（该小程序appid必须与发模板消息的公众号是绑定关联关系）
 }
 
 // 模版内某个 .DATA 的值
